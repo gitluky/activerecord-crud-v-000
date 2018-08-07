@@ -11,7 +11,7 @@ end
 
 namespace :db do
   desc 'sets NAME = create_movies'
-    task :create_migration
+    task :create_migration do
       NAME = create_movies
     end
   end
