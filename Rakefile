@@ -8,3 +8,12 @@ require 'sinatra/activerecord/rake'
 task :console do
   Pry.start
 end
+
+namespace :db do
+  desc 'sets NAME = create_movies'
+    task :create_migration
+      NAME = create_movies
+    end
+  end
+end
+
